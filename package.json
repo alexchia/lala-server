@@ -1,0 +1,22 @@
+{
+  "name": "lala-server",
+  "version": "0.0.0",
+  "description": "server for la la",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexchia/lala-server.git"
+  },
+  "author": "Alexander Chia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexchia/lala-server/issues"
+  },
+  "homepage": "https://github.com/alexchia/lala-server",
+  "dependencies": {
+    "express": "^4.11.2"
+  }
+}

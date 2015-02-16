@@ -1,0 +1,19 @@
+{
+  "name": "lala-server",
+  "version": "0.0.0",
+  "homepage": "https://github.com/alexchia/lala-server",
+  "authors": [
+    "Alexander Chia <ac@alexchia.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
