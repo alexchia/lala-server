@@ -24,7 +24,7 @@ exports.getRouter = function(express, redis, passport) {
           var getProfileInfo = function(access_token) {
             return function(callback) {
               // get profile info
-              request.get("https://kapi.kakao.com/v1/user/me", {headers:{
+              request.get("https://kapi.kakao.com/v1/api/talk/profile", {headers:{
                 "Authorization": "Bearer " + access_token
               }}, function (error, response, body) {
                 if (!error && response.statusCode == 200) {
